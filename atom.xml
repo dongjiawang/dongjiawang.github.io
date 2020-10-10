@@ -5,9 +5,9 @@
   <subtitle>dongjiawang</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://dongjiawang.top/"/>
+  <link href="https://blog.dongjiawang.top/"/>
   <updated>2020-09-27T02:34:43.628Z</updated>
-  <id>https://dongjiawang.top/</id>
+  <id>https://blog.dongjiawang.top/</id>
   
   <author>
     <name>dongjiawang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>网页图片添加点击方法获取图片</title>
-    <link href="https://dongjiawang.top/2020/09/27/2020-09-27-webView-clickedImage/"/>
-    <id>https://dongjiawang.top/2020/09/27/2020-09-27-webView-clickedImage/</id>
+    <link href="https://blog.dongjiawang.top/2020/09/27/2020-09-27-webView-clickedImage/"/>
+    <id>https://blog.dongjiawang.top/2020/09/27/2020-09-27-webView-clickedImage/</id>
     <published>2020-09-27T09:00:00.000Z</published>
     <updated>2020-09-27T02:34:43.628Z</updated>
     
@@ -35,43 +35,43 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="webView" scheme="https://dongjiawang.top/source/Tags/webView/"/>
+      <category term="webView" scheme="https://blog.dongjiawang.top/source/Tags/webView/"/>
     
   </entry>
   
   <entry>
     <title>WKProcesspool方式共享WKWebView的进程和cookie</title>
-    <link href="https://dongjiawang.top/2020/09/26/2020-09-26-wkwebview-cookie/"/>
-    <id>https://dongjiawang.top/2020/09/26/2020-09-26-wkwebview-cookie/</id>
+    <link href="https://blog.dongjiawang.top/2020/09/26/2020-09-26-wkwebview-cookie/"/>
+    <id>https://blog.dongjiawang.top/2020/09/26/2020-09-26-wkwebview-cookie/</id>
     <published>2020-09-26T10:00:00.000Z</published>
     <updated>2020-09-27T02:36:02.031Z</updated>
     
-    <content type="html"><![CDATA[<p>以前的时候总结过两次<code>WKWebView</code>的<code>cookie</code>使用方式</p><p><a href="https://dongjiawang.top/2016/08/16/2016-08-16-cookie/">WKWebView添加Cookie</a></p><p><a href="https://dongjiawang.top/2018/07/09/2018-07-09-WKWebView-cookie-add/">WKWebView添加Cookie总结</a></p><p>后来发现还可以使用<code>WKProcesspool</code>的方式共享<code>webView</code>进程池的方式共享<code>cookie</code>。</p><p>把<code>WKProcessPool</code>做成一个单例，需要用到相同<code>cookie</code>的地方都使用这个<code>processPool</code>，当然在清理<code>cookie</code>缓存的时候也要记得清理一下这个<code>processPool</code>。</p>]]></content>
+    <content type="html"><![CDATA[<p>以前的时候总结过两次<code>WKWebView</code>的<code>cookie</code>使用方式</p><p><a href="https://dongjiawang.top/2016/08/16/2016-08-16-cookie/" target="_blank" rel="noopener">WKWebView添加Cookie</a></p><p><a href="https://dongjiawang.top/2018/07/09/2018-07-09-WKWebView-cookie-add/" target="_blank" rel="noopener">WKWebView添加Cookie总结</a></p><p>后来发现还可以使用<code>WKProcesspool</code>的方式共享<code>webView</code>进程池的方式共享<code>cookie</code>。</p><p>把<code>WKProcessPool</code>做成一个单例，需要用到相同<code>cookie</code>的地方都使用这个<code>processPool</code>，当然在清理<code>cookie</code>缓存的时候也要记得清理一下这个<code>processPool</code>。</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;以前的时候总结过两次&lt;code&gt;WKWebView&lt;/code&gt;的&lt;code&gt;cookie&lt;/code&gt;使用方式&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://dongjiawang.top/2016/08/16/2016-08-16-cookie/&quot;&gt;WKWebView
+&lt;p&gt;&lt;a href=&quot;https://dongjiawang.top/2016/08/16/2016-08-16-cookie/&quot; target=&quot;_
       
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="webView" scheme="https://dongjiawang.top/source/Tags/webView/"/>
+      <category term="webView" scheme="https://blog.dongjiawang.top/source/Tags/webView/"/>
     
   </entry>
   
   <entry>
     <title>启动页白屏</title>
-    <link href="https://dongjiawang.top/2020/09/26/2020-09-26-launchStoryBoard/"/>
-    <id>https://dongjiawang.top/2020/09/26/2020-09-26-launchStoryBoard/</id>
+    <link href="https://blog.dongjiawang.top/2020/09/26/2020-09-26-launchStoryBoard/"/>
+    <id>https://blog.dongjiawang.top/2020/09/26/2020-09-26-launchStoryBoard/</id>
     <published>2020-09-26T09:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.514Z</updated>
     
@@ -87,15 +87,15 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
   </entry>
   
   <entry>
     <title>录屏功能</title>
-    <link href="https://dongjiawang.top/2020/01/19/2020-01-19-screenRecord/"/>
-    <id>https://dongjiawang.top/2020/01/19/2020-01-19-screenRecord/</id>
+    <link href="https://blog.dongjiawang.top/2020/01/19/2020-01-19-screenRecord/"/>
+    <id>https://blog.dongjiawang.top/2020/01/19/2020-01-19-screenRecord/</id>
     <published>2020-01-19T09:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.513Z</updated>
     
@@ -111,15 +111,15 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
   </entry>
   
   <entry>
     <title>检测设备方向</title>
-    <link href="https://dongjiawang.top/2020/01/17/2020-01-17-%E6%A3%80%E6%B5%8B%E8%AE%BE%E5%A4%87%E6%96%B9%E5%90%91/"/>
-    <id>https://dongjiawang.top/2020/01/17/2020-01-17-检测设备方向/</id>
+    <link href="https://blog.dongjiawang.top/2020/01/17/2020-01-17-%E6%A3%80%E6%B5%8B%E8%AE%BE%E5%A4%87%E6%96%B9%E5%90%91/"/>
+    <id>https://blog.dongjiawang.top/2020/01/17/2020-01-17-检测设备方向/</id>
     <published>2020-01-17T10:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.513Z</updated>
     
@@ -134,38 +134,38 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
   </entry>
   
   <entry>
     <title>UIVideoEditorController的颜色</title>
-    <link href="https://dongjiawang.top/2019/12/09/2019-12-09-UIVideoEditorController%E7%9A%84%E9%A2%9C%E8%89%B2/"/>
-    <id>https://dongjiawang.top/2019/12/09/2019-12-09-UIVideoEditorController的颜色/</id>
+    <link href="https://blog.dongjiawang.top/2019/12/09/2019-12-09-UIVideoEditorController%E7%9A%84%E9%A2%9C%E8%89%B2/"/>
+    <id>https://blog.dongjiawang.top/2019/12/09/2019-12-09-UIVideoEditorController的颜色/</id>
     <published>2019-12-09T04:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.512Z</updated>
     
-    <content type="html"><![CDATA[<p>这篇博客介绍了<a href="https://dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/">UIVideoEditorController</a>的简单使用，但是系统的的颜色都是白色高斯模糊，放到一些APP的主题颜色中并不好看，所以需要修改一下控制器的导航栏和toolbar的颜色。</p><p>创建一个继承<code>UIVideoEditorController</code>的控制器，然后修改这个控制器的导航栏颜色，遍历控制器的<code>view</code>的<code>subviews</code>，找到<code>toolbar</code>，修改<code>toolbar</code>的属性。</p><figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">void</span>)viewWillAppear:(<span class="built_in">BOOL</span>)animated &#123;</span><br><span class="line">    [<span class="keyword">super</span> viewWillAppear:animated];</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">self</span>.navigationBar.translucent = <span class="literal">NO</span>;</span><br><span class="line">    <span class="keyword">self</span>.navigationBar.barTintColor = [<span class="built_in">UIColor</span> appThemeColor];</span><br><span class="line">    <span class="keyword">self</span>.navigationBar.tintColor = [<span class="built_in">UIColor</span> whiteColor];</span><br><span class="line">    <span class="keyword">self</span>.navigationBar.titleTextAttributes = @&#123;<span class="built_in">NSForegroundColorAttributeName</span> : [<span class="built_in">UIColor</span> whiteColor]&#125;;</span><br><span class="line">    </span><br><span class="line">    [<span class="keyword">self</span> changeBottomToolBarColor:<span class="keyword">self</span>.view];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">void</span>)changeBottomToolBarColor:(<span class="built_in">UIView</span> *)view &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">UIView</span> *subView <span class="keyword">in</span> view.subviews) &#123;</span><br><span class="line">        <span class="keyword">if</span> ([<span class="built_in">NSStringFromClass</span>([subView <span class="keyword">class</span>]) isEqualToString:<span class="string">@"UIToolbar"</span>]) &#123;</span><br><span class="line">            <span class="built_in">UIToolbar</span> *toolbar = (<span class="built_in">UIToolbar</span> *)subView;</span><br><span class="line">            toolbar.barTintColor = [<span class="built_in">UIColor</span> appThemeColor];</span><br><span class="line">            toolbar.tintColor = [<span class="built_in">UIColor</span> whiteColor];</span><br><span class="line">        &#125;</span><br><span class="line">        [<span class="keyword">self</span> changeBottomToolBarColor:subView];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果如下图</p><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/IMG_C145ED458A94-1.jpeg" alt></p>]]></content>
+    <content type="html"><![CDATA[<p>这篇博客介绍了<a href="https://dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/" target="_blank" rel="noopener">UIVideoEditorController</a>的简单使用，但是系统的的颜色都是白色高斯模糊，放到一些APP的主题颜色中并不好看，所以需要修改一下控制器的导航栏和toolbar的颜色。</p><p>创建一个继承<code>UIVideoEditorController</code>的控制器，然后修改这个控制器的导航栏颜色，遍历控制器的<code>view</code>的<code>subviews</code>，找到<code>toolbar</code>，修改<code>toolbar</code>的属性。</p><figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">void</span>)viewWillAppear:(<span class="built_in">BOOL</span>)animated &#123;</span><br><span class="line">    [<span class="keyword">super</span> viewWillAppear:animated];</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">self</span>.navigationBar.translucent = <span class="literal">NO</span>;</span><br><span class="line">    <span class="keyword">self</span>.navigationBar.barTintColor = [<span class="built_in">UIColor</span> appThemeColor];</span><br><span class="line">    <span class="keyword">self</span>.navigationBar.tintColor = [<span class="built_in">UIColor</span> whiteColor];</span><br><span class="line">    <span class="keyword">self</span>.navigationBar.titleTextAttributes = @&#123;<span class="built_in">NSForegroundColorAttributeName</span> : [<span class="built_in">UIColor</span> whiteColor]&#125;;</span><br><span class="line">    </span><br><span class="line">    [<span class="keyword">self</span> changeBottomToolBarColor:<span class="keyword">self</span>.view];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">void</span>)changeBottomToolBarColor:(<span class="built_in">UIView</span> *)view &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">UIView</span> *subView <span class="keyword">in</span> view.subviews) &#123;</span><br><span class="line">        <span class="keyword">if</span> ([<span class="built_in">NSStringFromClass</span>([subView <span class="keyword">class</span>]) isEqualToString:<span class="string">@"UIToolbar"</span>]) &#123;</span><br><span class="line">            <span class="built_in">UIToolbar</span> *toolbar = (<span class="built_in">UIToolbar</span> *)subView;</span><br><span class="line">            toolbar.barTintColor = [<span class="built_in">UIColor</span> appThemeColor];</span><br><span class="line">            toolbar.tintColor = [<span class="built_in">UIColor</span> whiteColor];</span><br><span class="line">        &#125;</span><br><span class="line">        [<span class="keyword">self</span> changeBottomToolBarColor:subView];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果如下图</p><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/IMG_C145ED458A94-1.jpeg" alt></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这篇博客介绍了&lt;a href=&quot;https://dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/&quot;&gt;UIVideoEditorController&lt;/a&gt;的简单使用，但是系统的的颜色都是白色高斯模糊
+        &lt;p&gt;这篇博客介绍了&lt;a href=&quot;https://dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UIVideoEditorContr
       
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
   </entry>
   
   <entry>
     <title>UIVideoEditorController</title>
-    <link href="https://dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/"/>
-    <id>https://dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/</id>
+    <link href="https://blog.dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/"/>
+    <id>https://blog.dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/</id>
     <published>2019-12-06T04:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.512Z</updated>
     
@@ -181,19 +181,19 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
   </entry>
   
   <entry>
     <title>Cordova创建plugin</title>
-    <link href="https://dongjiawang.top/2019/11/08/2019-11-08-Cordova%E5%88%9B%E5%BB%BAplugin/"/>
-    <id>https://dongjiawang.top/2019/11/08/2019-11-08-Cordova创建plugin/</id>
+    <link href="https://blog.dongjiawang.top/2019/11/08/2019-11-08-Cordova%E5%88%9B%E5%BB%BAplugin/"/>
+    <id>https://blog.dongjiawang.top/2019/11/08/2019-11-08-Cordova创建plugin/</id>
     <published>2019-11-08T04:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.512Z</updated>
     
-    <content type="html"><![CDATA[<p>创建<code>plugin</code>需要用到<code>plugman</code>这个工具，可以使用<code>npm</code>安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g plugman</span><br></pre></td></tr></table></figure><h3 id="创建plugin模版"><a href="#创建plugin模版" class="headerlink" title="创建plugin模版"></a>创建plugin模版</h3><p>假设有一个名为<code>CordovaDemo</code>的工程，进入工程根目录，使用<code>plugman</code>创建名为<code>pluginDemo</code>的插件，版本号是 <code>1.0</code>， <code>ID</code>是<code>cordova-plugin-demo</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">plugman create --name pluginDemo --plugin_id cordova-plugin-demo --plugin_version 1.0</span><br></pre></td></tr></table></figure><p>进入插件目录，配置插件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> pluginDemo</span><br><span class="line"></span><br><span class="line"><span class="comment">#添加iOS平台</span></span><br><span class="line">plugman platform add --platform_name ios</span><br><span class="line"><span class="comment">#添加安卓平台</span></span><br><span class="line">plugman platform add --platform_name android</span><br></pre></td></tr></table></figure><h3 id="修改plugin-xml"><a href="#修改plugin-xml" class="headerlink" title="修改plugin.xml"></a>修改plugin.xml</h3><p>刚刚创建的插件的plugin是这样的，下面就只说iOS平台了，安卓类似</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version='1.0' encoding='utf-8'?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plugin</span> <span class="attr">id</span>=<span class="string">"cordova-plugin-demo"</span> <span class="attr">version</span>=<span class="string">"1.0"</span> </span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns</span>=<span class="string">"http://apache.org/cordova/ns/plugins/1.0"</span> </span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:android</span>=<span class="string">"http://schemas.android.com/apk/res/android"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>pluginDemo<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">js-module</span> <span class="attr">name</span>=<span class="string">"pluginDemo"</span> <span class="attr">src</span>=<span class="string">"www/pluginDemo.js"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">clobbers</span> <span class="attr">target</span>=<span class="string">"cordova.plugins.pluginDemo"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">js-module</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">platform</span> <span class="attr">name</span>=<span class="string">"ios"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">config-file</span> <span class="attr">parent</span>=<span class="string">"/*"</span> <span class="attr">target</span>=<span class="string">"config.xml"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">feature</span> <span class="attr">name</span>=<span class="string">"pluginDemo"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">"ios-package"</span> <span class="attr">value</span>=<span class="string">"pluginDemo"</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">feature</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">config-file</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!-- 引用的iOS文件 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">source-file</span> <span class="attr">src</span>=<span class="string">"src/ios/pluginDemo.m"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">platform</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></span><br></pre></td></tr></table></figure><p><code>source-file</code>这里要把自定义的iOS的插件的代码都引用起来，否则会找不到文件(包括头文件)</p><p>例如下图，是我的项目都代码</p><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/QQ20191108-111239@2x.png" alt></p><p><strong><a href="https://dongjiawang.top/2019/10/30/2019-10-30-Cordova中使用cocoapods管理iOS的第三方库/">Cordova中使用cocoapods管理iOS的第三方库</a></strong></p><p>参考这篇文章，管理iOS的cocoapods库</p><p><strong><a href="https://dongjiawang.top/2018/11/23/2018-11-23-自定义cordova插件/">自定义cordova插件</a></strong></p><p>参考这篇文章，写原生代码</p><p>把原生代码引用到<strong>xml</strong>文件中后，<code>Cordova</code>的<code>js</code>文件就能调用到</p><p>创建<code>package.json</code>文件，用</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init</span><br></pre></td></tr></table></figure><p><code>package.json</code>的内容就用插件的信息就行</p><h3 id="安装插件到项目"><a href="#安装插件到项目" class="headerlink" title="安装插件到项目"></a>安装插件到项目</h3><p>安装Cordova提供的插件的时候使用的是插件的ID</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova plugin add cordova-plugin-device</span><br></pre></td></tr></table></figure><p>安装自定义的本地插件，就可以使用<code>本地路径</code>安装，如下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova plugin add /Users/admin/Desktop/CordovaDemo/plugins/pluginDemo</span><br></pre></td></tr></table></figure><p>安装成功后，<code>Cordova</code>的<code>plugin</code>目录会自动添加自定义的插件，就可以正常使用了。</p>]]></content>
+    <content type="html"><![CDATA[<p>创建<code>plugin</code>需要用到<code>plugman</code>这个工具，可以使用<code>npm</code>安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g plugman</span><br></pre></td></tr></table></figure><h3 id="创建plugin模版"><a href="#创建plugin模版" class="headerlink" title="创建plugin模版"></a>创建plugin模版</h3><p>假设有一个名为<code>CordovaDemo</code>的工程，进入工程根目录，使用<code>plugman</code>创建名为<code>pluginDemo</code>的插件，版本号是 <code>1.0</code>， <code>ID</code>是<code>cordova-plugin-demo</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">plugman create --name pluginDemo --plugin_id cordova-plugin-demo --plugin_version 1.0</span><br></pre></td></tr></table></figure><p>进入插件目录，配置插件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> pluginDemo</span><br><span class="line"></span><br><span class="line"><span class="comment">#添加iOS平台</span></span><br><span class="line">plugman platform add --platform_name ios</span><br><span class="line"><span class="comment">#添加安卓平台</span></span><br><span class="line">plugman platform add --platform_name android</span><br></pre></td></tr></table></figure><h3 id="修改plugin-xml"><a href="#修改plugin-xml" class="headerlink" title="修改plugin.xml"></a>修改plugin.xml</h3><p>刚刚创建的插件的plugin是这样的，下面就只说iOS平台了，安卓类似</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version='1.0' encoding='utf-8'?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plugin</span> <span class="attr">id</span>=<span class="string">"cordova-plugin-demo"</span> <span class="attr">version</span>=<span class="string">"1.0"</span> </span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns</span>=<span class="string">"http://apache.org/cordova/ns/plugins/1.0"</span> </span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:android</span>=<span class="string">"http://schemas.android.com/apk/res/android"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>pluginDemo<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">js-module</span> <span class="attr">name</span>=<span class="string">"pluginDemo"</span> <span class="attr">src</span>=<span class="string">"www/pluginDemo.js"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">clobbers</span> <span class="attr">target</span>=<span class="string">"cordova.plugins.pluginDemo"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">js-module</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">platform</span> <span class="attr">name</span>=<span class="string">"ios"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">config-file</span> <span class="attr">parent</span>=<span class="string">"/*"</span> <span class="attr">target</span>=<span class="string">"config.xml"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">feature</span> <span class="attr">name</span>=<span class="string">"pluginDemo"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">"ios-package"</span> <span class="attr">value</span>=<span class="string">"pluginDemo"</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">feature</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">config-file</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!-- 引用的iOS文件 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">source-file</span> <span class="attr">src</span>=<span class="string">"src/ios/pluginDemo.m"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">platform</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></span><br></pre></td></tr></table></figure><p><code>source-file</code>这里要把自定义的iOS的插件的代码都引用起来，否则会找不到文件(包括头文件)</p><p>例如下图，是我的项目都代码</p><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/QQ20191108-111239@2x.png" alt></p><p><strong><a href="https://dongjiawang.top/2019/10/30/2019-10-30-Cordova中使用cocoapods管理iOS的第三方库/" target="_blank" rel="noopener">Cordova中使用cocoapods管理iOS的第三方库</a></strong></p><p>参考这篇文章，管理iOS的cocoapods库</p><p><strong><a href="https://dongjiawang.top/2018/11/23/2018-11-23-自定义cordova插件/" target="_blank" rel="noopener">自定义cordova插件</a></strong></p><p>参考这篇文章，写原生代码</p><p>把原生代码引用到<strong>xml</strong>文件中后，<code>Cordova</code>的<code>js</code>文件就能调用到</p><p>创建<code>package.json</code>文件，用</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm init</span><br></pre></td></tr></table></figure><p><code>package.json</code>的内容就用插件的信息就行</p><h3 id="安装插件到项目"><a href="#安装插件到项目" class="headerlink" title="安装插件到项目"></a>安装插件到项目</h3><p>安装Cordova提供的插件的时候使用的是插件的ID</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova plugin add cordova-plugin-device</span><br></pre></td></tr></table></figure><p>安装自定义的本地插件，就可以使用<code>本地路径</code>安装，如下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova plugin add /Users/admin/Desktop/CordovaDemo/plugins/pluginDemo</span><br></pre></td></tr></table></figure><p>安装成功后，<code>Cordova</code>的<code>plugin</code>目录会自动添加自定义的插件，就可以正常使用了。</p>]]></content>
     
     <summary type="html">
     
@@ -205,15 +205,15 @@
     
     </summary>
     
-      <category term="Cordova" scheme="https://dongjiawang.top/categories/Cordova/"/>
+      <category term="Cordova" scheme="https://blog.dongjiawang.top/categories/Cordova/"/>
     
     
   </entry>
   
   <entry>
     <title>Cordova中使用cocoapods管理iOS的第三方库</title>
-    <link href="https://dongjiawang.top/2019/10/30/2019-10-30-Cordova%E4%B8%AD%E4%BD%BF%E7%94%A8cocoapods%E7%AE%A1%E7%90%86iOS%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/"/>
-    <id>https://dongjiawang.top/2019/10/30/2019-10-30-Cordova中使用cocoapods管理iOS的第三方库/</id>
+    <link href="https://blog.dongjiawang.top/2019/10/30/2019-10-30-Cordova%E4%B8%AD%E4%BD%BF%E7%94%A8cocoapods%E7%AE%A1%E7%90%86iOS%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/"/>
+    <id>https://blog.dongjiawang.top/2019/10/30/2019-10-30-Cordova中使用cocoapods管理iOS的第三方库/</id>
     <published>2019-10-30T08:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.511Z</updated>
     
@@ -229,15 +229,15 @@
     
     </summary>
     
-      <category term="Cordova" scheme="https://dongjiawang.top/categories/Cordova/"/>
+      <category term="Cordova" scheme="https://blog.dongjiawang.top/categories/Cordova/"/>
     
     
   </entry>
   
   <entry>
     <title>获取到的相册图片方向错误</title>
-    <link href="https://dongjiawang.top/2019/10/30/2019-10-30-%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E7%9B%B8%E5%86%8C%E5%9B%BE%E7%89%87%E6%96%B9%E5%90%91%E9%94%99%E8%AF%AF/"/>
-    <id>https://dongjiawang.top/2019/10/30/2019-10-30-获取到的相册图片方向错误/</id>
+    <link href="https://blog.dongjiawang.top/2019/10/30/2019-10-30-%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E7%9B%B8%E5%86%8C%E5%9B%BE%E7%89%87%E6%96%B9%E5%90%91%E9%94%99%E8%AF%AF/"/>
+    <id>https://blog.dongjiawang.top/2019/10/30/2019-10-30-获取到的相册图片方向错误/</id>
     <published>2019-10-30T07:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.511Z</updated>
     
@@ -253,15 +253,15 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
   </entry>
   
   <entry>
     <title>合成视频出现绿边</title>
-    <link href="https://dongjiawang.top/2019/09/19/2019-09-19-%E5%90%88%E6%88%90%E8%A7%86%E9%A2%91%E5%87%BA%E7%8E%B0%E7%BB%BF%E8%BE%B9/"/>
-    <id>https://dongjiawang.top/2019/09/19/2019-09-19-合成视频出现绿边/</id>
+    <link href="https://blog.dongjiawang.top/2019/09/19/2019-09-19-%E5%90%88%E6%88%90%E8%A7%86%E9%A2%91%E5%87%BA%E7%8E%B0%E7%BB%BF%E8%BE%B9/"/>
+    <id>https://blog.dongjiawang.top/2019/09/19/2019-09-19-合成视频出现绿边/</id>
     <published>2019-09-19T15:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.511Z</updated>
     
@@ -278,39 +278,39 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
   </entry>
   
   <entry>
     <title>配置fastlane环境</title>
-    <link href="https://dongjiawang.top/2019/09/10/2019-09-10-%E9%85%8D%E7%BD%AEfastlane%E7%8E%AF%E5%A2%83/"/>
-    <id>https://dongjiawang.top/2019/09/10/2019-09-10-配置fastlane环境/</id>
+    <link href="https://blog.dongjiawang.top/2019/09/10/2019-09-10-%E9%85%8D%E7%BD%AEfastlane%E7%8E%AF%E5%A2%83/"/>
+    <id>https://blog.dongjiawang.top/2019/09/10/2019-09-10-配置fastlane环境/</id>
     <published>2019-09-10T03:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.510Z</updated>
     
-    <content type="html"><![CDATA[<p>配合这篇文章使用<a href="https://dongjiawang.top/2017/09/13/2017-09-13-fastlane/">Fastlane自动化发布</a></p><h2 id="安装homebrew"><a href="#安装homebrew" class="headerlink" title="安装homebrew,"></a>安装<code>homebrew</code>,</h2><p> <a href="https://brew.sh/index_zh-cn" target="_blank" rel="noopener"><strong>链接</strong></a>。</p><h2 id="安装Ruby"><a href="#安装Ruby" class="headerlink" title="安装Ruby"></a>安装Ruby</h2><h3 id="安装rvm："><a href="#安装rvm：" class="headerlink" title="安装rvm："></a>安装rvm：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ curl -L https://get.rvm.io | bash -s stable</span><br><span class="line">$ <span class="built_in">source</span> ~/.rvm/scripts/rvm     <span class="comment"># 命令终端load</span></span><br><span class="line">$ rvm -v    <span class="comment"># 测试rvm是否安装成功</span></span><br><span class="line">$ gem update --system <span class="comment"># 更新</span></span><br></pre></td></tr></table></figure><h3 id="安装Ruby："><a href="#安装Ruby：" class="headerlink" title="安装Ruby："></a>安装Ruby：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ rvm list known        <span class="comment"># 查看可用ruby版本</span></span><br><span class="line">$ rvm install 2.4.1     <span class="comment"># 安装ruby，这里根据实际情况写 版本号</span></span><br><span class="line">$ rvm 2.4.1 —default    <span class="comment"># 设置ruby版本，设置安装的版本为默认版本</span></span><br><span class="line">$ rvm list              <span class="comment"># 查看当前安装的ruby</span></span><br><span class="line">$ ruby -v</span><br></pre></td></tr></table></figure><h3 id="检查是否安装成功"><a href="#检查是否安装成功" class="headerlink" title="检查是否安装成功:"></a>检查是否安装成功:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem -v</span><br></pre></td></tr></table></figure><h3 id="更换ruby源为国内镜像："><a href="#更换ruby源为国内镜像：" class="headerlink" title="更换ruby源为国内镜像："></a>更换ruby源为国内镜像：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ gem sources --remove https://rubygems.org/ </span><br><span class="line">$ gem sources --add https://gems.ruby-china.com/</span><br><span class="line">$ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ </span><br><span class="line">$ gem sources -l <span class="comment">#(查看当前ruby的源)</span></span><br></pre></td></tr></table></figure><h2 id="安装fastlane"><a href="#安装fastlane" class="headerlink" title="安装fastlane"></a>安装fastlane</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem install fastlane</span><br></pre></td></tr></table></figure><h3 id="安装fastlane插件"><a href="#安装fastlane插件" class="headerlink" title="安装fastlane插件"></a>安装fastlane插件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ fastlane add_plugin versioning</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ fastlane add_plugin firim</span><br></pre></td></tr></table></figure><h2 id="firim的token"><a href="#firim的token" class="headerlink" title="firim的token"></a>firim的token</h2><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/image-20190910104650219.png" alt></p><h2 id="更改fastlane配置"><a href="#更改fastlane配置" class="headerlink" title="更改fastlane配置"></a>更改fastlane配置</h2><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/image-20190910105153178.png" alt></p><blockquote><p> 替换<code>ipa</code>包的输出路径</p></blockquote><blockquote><p>替换<code>token</code>为自己的<code>firim</code>的<code>token</code></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>配合这篇文章使用<a href="https://dongjiawang.top/2017/09/13/2017-09-13-fastlane/" target="_blank" rel="noopener">Fastlane自动化发布</a></p><h2 id="安装homebrew"><a href="#安装homebrew" class="headerlink" title="安装homebrew,"></a>安装<code>homebrew</code>,</h2><p> <a href="https://brew.sh/index_zh-cn" target="_blank" rel="noopener"><strong>链接</strong></a>。</p><h2 id="安装Ruby"><a href="#安装Ruby" class="headerlink" title="安装Ruby"></a>安装Ruby</h2><h3 id="安装rvm："><a href="#安装rvm：" class="headerlink" title="安装rvm："></a>安装rvm：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ curl -L https://get.rvm.io | bash -s stable</span><br><span class="line">$ <span class="built_in">source</span> ~/.rvm/scripts/rvm     <span class="comment"># 命令终端load</span></span><br><span class="line">$ rvm -v    <span class="comment"># 测试rvm是否安装成功</span></span><br><span class="line">$ gem update --system <span class="comment"># 更新</span></span><br></pre></td></tr></table></figure><h3 id="安装Ruby："><a href="#安装Ruby：" class="headerlink" title="安装Ruby："></a>安装Ruby：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ rvm list known        <span class="comment"># 查看可用ruby版本</span></span><br><span class="line">$ rvm install 2.4.1     <span class="comment"># 安装ruby，这里根据实际情况写 版本号</span></span><br><span class="line">$ rvm 2.4.1 —default    <span class="comment"># 设置ruby版本，设置安装的版本为默认版本</span></span><br><span class="line">$ rvm list              <span class="comment"># 查看当前安装的ruby</span></span><br><span class="line">$ ruby -v</span><br></pre></td></tr></table></figure><h3 id="检查是否安装成功"><a href="#检查是否安装成功" class="headerlink" title="检查是否安装成功:"></a>检查是否安装成功:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem -v</span><br></pre></td></tr></table></figure><h3 id="更换ruby源为国内镜像："><a href="#更换ruby源为国内镜像：" class="headerlink" title="更换ruby源为国内镜像："></a>更换ruby源为国内镜像：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ gem sources --remove https://rubygems.org/ </span><br><span class="line">$ gem sources --add https://gems.ruby-china.com/</span><br><span class="line">$ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ </span><br><span class="line">$ gem sources -l <span class="comment">#(查看当前ruby的源)</span></span><br></pre></td></tr></table></figure><h2 id="安装fastlane"><a href="#安装fastlane" class="headerlink" title="安装fastlane"></a>安装fastlane</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem install fastlane</span><br></pre></td></tr></table></figure><h3 id="安装fastlane插件"><a href="#安装fastlane插件" class="headerlink" title="安装fastlane插件"></a>安装fastlane插件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ fastlane add_plugin versioning</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ fastlane add_plugin firim</span><br></pre></td></tr></table></figure><h2 id="firim的token"><a href="#firim的token" class="headerlink" title="firim的token"></a>firim的token</h2><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/image-20190910104650219.png" alt></p><h2 id="更改fastlane配置"><a href="#更改fastlane配置" class="headerlink" title="更改fastlane配置"></a>更改fastlane配置</h2><p><img src="https://cdn.jsdelivr.net/gh/dongjiawang/BlogImage@1.0/img/image-20190910105153178.png" alt></p><blockquote><p> 替换<code>ipa</code>包的输出路径</p></blockquote><blockquote><p>替换<code>token</code>为自己的<code>firim</code>的<code>token</code></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;配合这篇文章使用&lt;a href=&quot;https://dongjiawang.top/2017/09/13/2017-09-13-fastlane/&quot;&gt;Fastlane自动化发布&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;安装homebrew&quot;&gt;&lt;a href=&quot;#安装homebrew&quot;
+        &lt;p&gt;配合这篇文章使用&lt;a href=&quot;https://dongjiawang.top/2017/09/13/2017-09-13-fastlane/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Fastlane自动化发布&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;安装
       
     
     </summary>
     
-      <category term="工具" scheme="https://dongjiawang.top/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://blog.dongjiawang.top/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
   </entry>
   
   <entry>
     <title>Flutter的BottomNavigationBar不显示的问题</title>
-    <link href="https://dongjiawang.top/2019/08/07/2019-08-07-Flutter%E7%9A%84BottomNavigationBar%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>https://dongjiawang.top/2019/08/07/2019-08-07-Flutter的BottomNavigationBar不显示的问题/</id>
+    <link href="https://blog.dongjiawang.top/2019/08/07/2019-08-07-Flutter%E7%9A%84BottomNavigationBar%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://blog.dongjiawang.top/2019/08/07/2019-08-07-Flutter的BottomNavigationBar不显示的问题/</id>
     <published>2019-08-07T06:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.510Z</updated>
     
@@ -326,17 +326,17 @@
     
     </summary>
     
-      <category term="flutter" scheme="https://dongjiawang.top/categories/flutter/"/>
+      <category term="flutter" scheme="https://blog.dongjiawang.top/categories/flutter/"/>
     
     
-      <category term="flutter" scheme="https://dongjiawang.top/source/Tags/flutter/"/>
+      <category term="flutter" scheme="https://blog.dongjiawang.top/source/Tags/flutter/"/>
     
   </entry>
   
   <entry>
     <title>MJRefresh增加震动反馈</title>
-    <link href="https://dongjiawang.top/2019/08/05/2019-08-05-MJRefresh%E5%A2%9E%E5%8A%A0%E9%9C%87%E5%8A%A8%E5%8F%8D%E9%A6%88/"/>
-    <id>https://dongjiawang.top/2019/08/05/2019-08-05-MJRefresh增加震动反馈/</id>
+    <link href="https://blog.dongjiawang.top/2019/08/05/2019-08-05-MJRefresh%E5%A2%9E%E5%8A%A0%E9%9C%87%E5%8A%A8%E5%8F%8D%E9%A6%88/"/>
+    <id>https://blog.dongjiawang.top/2019/08/05/2019-08-05-MJRefresh增加震动反馈/</id>
     <published>2019-08-05T15:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.509Z</updated>
     
@@ -351,17 +351,17 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="https://dongjiawang.top/source/Tags/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/source/Tags/iOS/"/>
     
   </entry>
   
   <entry>
     <title>导入Xcode文件排序错乱的问题</title>
-    <link href="https://dongjiawang.top/2019/07/02/2019-07-02-%E5%AF%BC%E5%85%A5Xcode%E6%96%87%E4%BB%B6%E6%8E%92%E5%BA%8F%E9%94%99%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>https://dongjiawang.top/2019/07/02/2019-07-02-导入Xcode文件排序错乱的问题/</id>
+    <link href="https://blog.dongjiawang.top/2019/07/02/2019-07-02-%E5%AF%BC%E5%85%A5Xcode%E6%96%87%E4%BB%B6%E6%8E%92%E5%BA%8F%E9%94%99%E4%B9%B1%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://blog.dongjiawang.top/2019/07/02/2019-07-02-导入Xcode文件排序错乱的问题/</id>
     <published>2019-07-02T08:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.509Z</updated>
     
@@ -378,17 +378,17 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="https://dongjiawang.top/source/Tags/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/source/Tags/iOS/"/>
     
   </entry>
   
   <entry>
     <title>MapView使用Autolayout无法自动定位到用户位置</title>
-    <link href="https://dongjiawang.top/2019/06/26/2019-06-26-MapView%E4%BD%BF%E7%94%A8Autolayout%E6%97%A0%E6%B3%95%E8%87%AA%E5%8A%A8%E5%AE%9A%E4%BD%8D%E5%88%B0%E7%94%A8%E6%88%B7%E4%BD%8D%E7%BD%AE/"/>
-    <id>https://dongjiawang.top/2019/06/26/2019-06-26-MapView使用Autolayout无法自动定位到用户位置/</id>
+    <link href="https://blog.dongjiawang.top/2019/06/26/2019-06-26-MapView%E4%BD%BF%E7%94%A8Autolayout%E6%97%A0%E6%B3%95%E8%87%AA%E5%8A%A8%E5%AE%9A%E4%BD%8D%E5%88%B0%E7%94%A8%E6%88%B7%E4%BD%8D%E7%BD%AE/"/>
+    <id>https://blog.dongjiawang.top/2019/06/26/2019-06-26-MapView使用Autolayout无法自动定位到用户位置/</id>
     <published>2019-06-26T04:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.509Z</updated>
     
@@ -404,17 +404,17 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="https://dongjiawang.top/source/Tags/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/source/Tags/iOS/"/>
     
   </entry>
   
   <entry>
     <title>iOS自定义字体</title>
-    <link href="https://dongjiawang.top/2019/06/18/2019-06-18-iOS%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93/"/>
-    <id>https://dongjiawang.top/2019/06/18/2019-06-18-iOS自定义字体/</id>
+    <link href="https://blog.dongjiawang.top/2019/06/18/2019-06-18-iOS%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93/"/>
+    <id>https://blog.dongjiawang.top/2019/06/18/2019-06-18-iOS自定义字体/</id>
     <published>2019-06-18T04:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.508Z</updated>
     
@@ -430,40 +430,40 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="https://dongjiawang.top/source/Tags/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/source/Tags/iOS/"/>
     
   </entry>
   
   <entry>
     <title>命令行配置搬瓦工的SS</title>
-    <link href="https://dongjiawang.top/2019/06/10/2019-06-10-%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%85%8D%E7%BD%AE%E6%90%AC%E7%93%A6%E5%B7%A5%E7%9A%84SS/"/>
-    <id>https://dongjiawang.top/2019/06/10/2019-06-10-命令行配置搬瓦工的SS/</id>
+    <link href="https://blog.dongjiawang.top/2019/06/10/2019-06-10-%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%85%8D%E7%BD%AE%E6%90%AC%E7%93%A6%E5%B7%A5%E7%9A%84SS/"/>
+    <id>https://blog.dongjiawang.top/2019/06/10/2019-06-10-命令行配置搬瓦工的SS/</id>
     <published>2019-06-10T07:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.508Z</updated>
     
-    <content type="html"><![CDATA[<p>原来的时候搬瓦工可以一键配置SS，参考这篇<strong><a href="https://dongjiawang.top/2017/10/27/2017-10-27-bandwagon-config/">《配置搬瓦工》</a></strong> ，后来就没有这个选项了。</p><p>不过现在可以使用命令行安装配置。</p><p>最好是使用SSH连接到VPS，可参考上篇文章，连接SSH。</p><h5 id="安装wget工具"><a href="#安装wget工具" class="headerlink" title="安装wget工具"></a>安装wget工具</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install wget</span><br></pre></td></tr></table></figure><h5 id="安装SS服务"><a href="#安装SS服务" class="headerlink" title="安装SS服务"></a>安装SS服务</h5><p>一次运行下面三个命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">wget — no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh</span><br><span class="line"></span><br><span class="line">chmod +x shadowsocks.sh</span><br><span class="line"></span><br><span class="line">./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log</span><br></pre></td></tr></table></figure><p>根据内容，依次填写<strong>密码</strong>、<strong>端口号</strong>、<strong>选择加密方式</strong>，然后回车开始安装。</p><p>然后记录下红色区域的信息，就可以使用SS了。</p><p><img src="https://raw.githubusercontent.com/dongjiawang/BlogImage/master/img/20190610150423.png" alt></p><h5 id="配置多用户"><a href="#配置多用户" class="headerlink" title="配置多用户"></a>配置多用户</h5><p>安装好SS服务，再配置多用户的时候，就跟上篇文章中的操作比较相似。</p><p>在终端中 输入 </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/shadowsocks.json</span><br></pre></td></tr></table></figure><p>删掉里面的内容，替换成下面自定义的：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"> "server":"my_server_ip",  #填入你的IP地址</span><br><span class="line"> "local_address": "127.0.0.1",</span><br><span class="line"> "local_port":1080,</span><br><span class="line">  "port_password": &#123;</span><br><span class="line">      "8381": "自定义密码",    #端口号，密码</span><br><span class="line">      "8382": "自定义密码",</span><br><span class="line">      "8383": "自定义密码"      #最后一个用户后面不用逗号</span><br><span class="line"> &#125;,</span><br><span class="line"> "timeout":300,</span><br><span class="line"> "method":"aes-256-cfb",</span><br><span class="line"> "fast_open": false</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>退出<strong>vi</strong></p><h5 id="重启SS服务"><a href="#重启SS服务" class="headerlink" title="重启SS服务"></a>重启SS服务</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/shadowsocks restart</span><br></pre></td></tr></table></figure><h5 id="关闭防火墙："><a href="#关闭防火墙：" class="headerlink" title="关闭防火墙："></a>关闭防火墙：</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">service iptables stop</span><br><span class="line">chkconfig iptables off</span><br></pre></td></tr></table></figure><h5 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h5>]]></content>
+    <content type="html"><![CDATA[<p>原来的时候搬瓦工可以一键配置SS，参考这篇<strong><a href="https://dongjiawang.top/2017/10/27/2017-10-27-bandwagon-config/" target="_blank" rel="noopener">《配置搬瓦工》</a></strong> ，后来就没有这个选项了。</p><p>不过现在可以使用命令行安装配置。</p><p>最好是使用SSH连接到VPS，可参考上篇文章，连接SSH。</p><h5 id="安装wget工具"><a href="#安装wget工具" class="headerlink" title="安装wget工具"></a>安装wget工具</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install wget</span><br></pre></td></tr></table></figure><h5 id="安装SS服务"><a href="#安装SS服务" class="headerlink" title="安装SS服务"></a>安装SS服务</h5><p>一次运行下面三个命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">wget — no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh</span><br><span class="line"></span><br><span class="line">chmod +x shadowsocks.sh</span><br><span class="line"></span><br><span class="line">./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log</span><br></pre></td></tr></table></figure><p>根据内容，依次填写<strong>密码</strong>、<strong>端口号</strong>、<strong>选择加密方式</strong>，然后回车开始安装。</p><p>然后记录下红色区域的信息，就可以使用SS了。</p><p><img src="https://raw.githubusercontent.com/dongjiawang/BlogImage/master/img/20190610150423.png" alt></p><h5 id="配置多用户"><a href="#配置多用户" class="headerlink" title="配置多用户"></a>配置多用户</h5><p>安装好SS服务，再配置多用户的时候，就跟上篇文章中的操作比较相似。</p><p>在终端中 输入 </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/shadowsocks.json</span><br></pre></td></tr></table></figure><p>删掉里面的内容，替换成下面自定义的：</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"> "server":"my_server_ip",  #填入你的IP地址</span><br><span class="line"> "local_address": "127.0.0.1",</span><br><span class="line"> "local_port":1080,</span><br><span class="line">  "port_password": &#123;</span><br><span class="line">      "8381": "自定义密码",    #端口号，密码</span><br><span class="line">      "8382": "自定义密码",</span><br><span class="line">      "8383": "自定义密码"      #最后一个用户后面不用逗号</span><br><span class="line"> &#125;,</span><br><span class="line"> "timeout":300,</span><br><span class="line"> "method":"aes-256-cfb",</span><br><span class="line"> "fast_open": false</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>退出<strong>vi</strong></p><h5 id="重启SS服务"><a href="#重启SS服务" class="headerlink" title="重启SS服务"></a>重启SS服务</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/shadowsocks restart</span><br></pre></td></tr></table></figure><h5 id="关闭防火墙："><a href="#关闭防火墙：" class="headerlink" title="关闭防火墙："></a>关闭防火墙：</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">service iptables stop</span><br><span class="line">chkconfig iptables off</span><br></pre></td></tr></table></figure><h5 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h5>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;原来的时候搬瓦工可以一键配置SS，参考这篇&lt;strong&gt;&lt;a href=&quot;https://dongjiawang.top/2017/10/27/2017-10-27-bandwagon-config/&quot;&gt;《配置搬瓦工》&lt;/a&gt;&lt;/strong&gt; ，后来就没有这个选项了。&lt;
+        &lt;p&gt;原来的时候搬瓦工可以一键配置SS，参考这篇&lt;strong&gt;&lt;a href=&quot;https://dongjiawang.top/2017/10/27/2017-10-27-bandwagon-config/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《配置
       
     
     </summary>
     
-      <category term="工具" scheme="https://dongjiawang.top/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://blog.dongjiawang.top/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
   </entry>
   
   <entry>
     <title>iOS进入后台的模糊效果</title>
-    <link href="https://dongjiawang.top/2019/06/05/2019-06-05-iOS%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E7%9A%84%E6%A8%A1%E7%B3%8A%E6%95%88%E6%9E%9C/"/>
-    <id>https://dongjiawang.top/2019/06/05/2019-06-05-iOS进入后台的模糊效果/</id>
+    <link href="https://blog.dongjiawang.top/2019/06/05/2019-06-05-iOS%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E7%9A%84%E6%A8%A1%E7%B3%8A%E6%95%88%E6%9E%9C/"/>
+    <id>https://blog.dongjiawang.top/2019/06/05/2019-06-05-iOS进入后台的模糊效果/</id>
     <published>2019-06-05T07:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.508Z</updated>
     
@@ -478,17 +478,17 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="https://dongjiawang.top/source/Tags/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/source/Tags/iOS/"/>
     
   </entry>
   
   <entry>
     <title>iOS检测是否越狱</title>
-    <link href="https://dongjiawang.top/2019/06/04/2019-06-04-iOS%E6%A3%80%E6%B5%8B%E6%98%AF%E5%90%A6%E8%B6%8A%E7%8B%B1/"/>
-    <id>https://dongjiawang.top/2019/06/04/2019-06-04-iOS检测是否越狱/</id>
+    <link href="https://blog.dongjiawang.top/2019/06/04/2019-06-04-iOS%E6%A3%80%E6%B5%8B%E6%98%AF%E5%90%A6%E8%B6%8A%E7%8B%B1/"/>
+    <id>https://blog.dongjiawang.top/2019/06/04/2019-06-04-iOS检测是否越狱/</id>
     <published>2019-06-04T14:00:00.000Z</published>
     <updated>2020-09-26T07:11:33.507Z</updated>
     
@@ -504,10 +504,10 @@
     
     </summary>
     
-      <category term="iOS" scheme="https://dongjiawang.top/categories/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="https://dongjiawang.top/source/Tags/iOS/"/>
+      <category term="iOS" scheme="https://blog.dongjiawang.top/source/Tags/iOS/"/>
     
   </entry>
   

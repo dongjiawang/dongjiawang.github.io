@@ -1,3 +1,290 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.9.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="记录一下个人码农经历。"><title>我的码 | dongjiawang</title><link rel="stylesheet" href="/css/style.css?v=0.0.0"><link rel="stylesheet" href="/css/dark.css?v=0.0.0"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","UA-141040294-1","auto"),ga("send","pageview")</script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?313cf881bee8a9aa164275a7e934b692";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">我的码</h1><a id="logo" href="/.">我的码</a><p class="description">dongjiawang</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home">首页</i></a> <a href="/archives/"><i class="fa fa-archive">归档</i></a> <a href="/about/"><i class="fa fa-user">关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/2020/09/27/2020-09-27-webView-clickedImage/">网页图片添加点击方法获取图片</a></h1><div class="post-meta">2020-09-27</div><div class="post-content"><p>点击网页中到图片，获取到这张图片后进行放大展示到效果。</p><p>实现这个效果，首先需要点击图片的时候获取到图片的地址，如果网页中的<code>js</code>没有点击方法，就需要在网页加载完成后通过注入<code>js</code>代码的方式为每个图片增加<code>click</code>方法，并且点击的时候把<code>src</code>地址传递出来。</p></div><p class="readmore"><a href="/2020/09/27/2020-09-27-webView-clickedImage/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2020/09/26/2020-09-26-wkwebview-cookie/">WKProcesspool方式共享WKWebView的进程和cookie</a></h1><div class="post-meta">2020-09-26</div><div class="post-content"><p>以前的时候总结过两次<code>WKWebView</code>的<code>cookie</code>使用方式</p><p><a href="https://dongjiawang.top/2016/08/16/2016-08-16-cookie/" target="_blank" rel="noopener">WKWebView添加Cookie</a></p></div><p class="readmore"><a href="/2020/09/26/2020-09-26-wkwebview-cookie/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2020/09/26/2020-09-26-launchStoryBoard/">启动页白屏</a></h1><div class="post-meta">2020-09-26</div><div class="post-content"><p>使用 <code>storyboard</code>作为启动页之后可能会出现加载图片失败的问题，也就是白屏。</p><h4 id="第一种"><a href="#第一种" class="headerlink" title="第一种"></a>第一种</h4><p>一般的解决方法是把启动页用的图片从<code>Image.xcassets</code>中移出来，放到项目的根目录下。这种方式可以解决大部分遇到的白屏问题。</p></div><p class="readmore"><a href="/2020/09/26/2020-09-26-launchStoryBoard/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2020/01/19/2020-01-19-screenRecord/">录屏功能</a></h1><div class="post-meta">2020-01-19</div><div class="post-content"><p>苹果提供了<code>ReplayKit</code>对屏幕进行录制，支持音频、视频，还可以对视频进行剪辑、分享。</p><p>需要引用头文件<code>&lt;ReplayKit/ReplayKit.h&gt;</code>,通过<code>RPScreenRecorder</code>控制录屏。</p></div><p class="readmore"><a href="/2020/01/19/2020-01-19-screenRecord/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2020/01/17/2020-01-17-检测设备方向/">检测设备方向</a></h1><div class="post-meta">2020-01-17</div><div class="post-content"><h3 id="第一种"><a href="#第一种" class="headerlink" title="第一种"></a>第一种</h3><p>使用<code>[UIApplication sharedApplication].statusBarOrientation</code>获取</p><figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">UIInterfaceOrientation</span> orientation = [<span class="built_in">UIApplication</span> sharedApplication].statusBarOrientation;</span><br></pre></td></tr></table></figure></div><p class="readmore"><a href="/2020/01/17/2020-01-17-检测设备方向/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2019/12/09/2019-12-09-UIVideoEditorController的颜色/">UIVideoEditorController的颜色</a></h1><div class="post-meta">2019-12-09</div><div class="post-content"><p>这篇博客介绍了<a href="https://dongjiawang.top/2019/12/06/2019-12-06-UIVideoEditorController/" target="_blank" rel="noopener">UIVideoEditorController</a>的简单使用，但是系统的的颜色都是白色高斯模糊，放到一些APP的主题颜色中并不好看，所以需要修改一下控制器的导航栏和toolbar的颜色。</p></div><p class="readmore"><a href="/2019/12/09/2019-12-09-UIVideoEditorController的颜色/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2019/12/06/2019-12-06-UIVideoEditorController/">UIVideoEditorController</a></h1><div class="post-meta">2019-12-06</div><div class="post-content"><p>在使用<code>UIImagePickerController</code>拍摄视频的时候如果设置<code>allowsEditing</code>为<code>YES</code>，在拍摄完成后可以对视频进行裁剪。</p><p>如果需要裁剪相册中的视频，可以直接使用系统提供的<code>UIVideoEditorController</code>。</p></div><p class="readmore"><a href="/2019/12/06/2019-12-06-UIVideoEditorController/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2019/11/08/2019-11-08-Cordova创建plugin/">Cordova创建plugin</a></h1><div class="post-meta">2019-11-08</div><div class="post-content"><p>创建<code>plugin</code>需要用到<code>plugman</code>这个工具，可以使用<code>npm</code>安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g plugman</span><br></pre></td></tr></table></figure></div><p class="readmore"><a href="/2019/11/08/2019-11-08-Cordova创建plugin/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2019/10/30/2019-10-30-Cordova中使用cocoapods管理iOS的第三方库/">Cordova中使用cocoapods管理iOS的第三方库</a></h1><div class="post-meta">2019-10-30</div><div class="post-content"><p><code>Cordova</code>已经支持iOS的<code>cocoapods</code>管理第三方库。</p><p>如果自定义的<code>plugin</code>中使用了<code>cocoapods</code>管理的框架，可以在<code>plugin.xml</code>文件中添加<code>pod</code>的引用，在<code>Cordova plugin add</code>的时候，会根据配置文件，同时安装<code>cocoapods</code>中的库，可参考<a href="https://cordova.apache.org/docs/en/9.x/plugin_ref/spec.html#podspec-ios" target="_blank" rel="noopener">Cordova的文档</a>填写配置信息。</p></div><p class="readmore"><a href="/2019/10/30/2019-10-30-Cordova中使用cocoapods管理iOS的第三方库/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/2019/10/30/2019-10-30-获取到的相册图片方向错误/">获取到的相册图片方向错误</a></h1><div class="post-meta">2019-10-30</div><div class="post-content"><p>使用<code>PhotoKit</code>从相册中获取到的图片时，会出现有些图片直接放在<code>UIImageView</code>中去显示的话，图片是正常的，如果对图片进行编辑，就会发现图片的方向是错误的。</p><p>下面的方法是判断获取到的图片方向，对方向错误的图片进行旋转处理</p></div><p class="readmore"><a href="/2019/10/30/2019-10-30-获取到的相册图片方向错误/">阅读全文</a></p></div><nav class="page-navigator"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/14/">14</a><a class="extend next" rel="next" href="/page/2/">下一页</a></nav><script type="text/x-mathjax-config">MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-  });</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML" async></script></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"><input type="hidden" name="sitesearch" value="https://blog.dongjiawang.top"></form></div><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"><input type="hidden" name="si" value="https://blog.dongjiawang.top"><input name="tn" type="hidden" value="bds"><input name="cl" type="hidden" value="3"><input name="ct" type="hidden" value="2097152"><input name="s" type="hidden" value="on"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o">分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/AVPlayer/">AVPlayer</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/CocoaPods/">CocoaPods</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Cordova/">Cordova</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Xcode/">Xcode</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/flutter/">flutter</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/">iOS</a><span class="category-list-count">105</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/libSDK/">libSDK</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/博客/">博客</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程知识/">编程知识</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网络/">网络</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/遇到的问题/">遇到的问题</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o">标签</i></div><div class="tagcloud"><a href="/source/Tags/iOS/" style="font-size:15px">iOS</a> <a href="/source/Tags/UICollectionView/" style="font-size:15px">UICollectionView</a> <a href="/source/Tags/编程知识/" style="font-size:15px">编程知识</a> <a href="/source/Tags/动画/" style="font-size:15px">动画</a> <a href="/source/Tags/UITableView/" style="font-size:15px">UITableView</a> <a href="/source/Tags/webView/" style="font-size:15px">webView</a> <a href="/source/Tags/layer/" style="font-size:15px">layer</a> <a href="/source/Tags/NSString/" style="font-size:15px">NSString</a> <a href="/source/Tags/Photos/" style="font-size:15px">Photos</a> <a href="/source/Tags/nginx/" style="font-size:15px">nginx</a> <a href="/source/Tags/UIView/" style="font-size:15px">UIView</a> <a href="/source/Tags/Runtime/" style="font-size:15px">Runtime</a> <a href="/source/Tags/UITextField/" style="font-size:15px">UITextField</a> <a href="/source/Tags/UITextView/" style="font-size:15px">UITextView</a> <a href="/source/Tags/UISlider/" style="font-size:15px">UISlider</a> <a href="/source/Tags/flutter/" style="font-size:15px">flutter</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o">最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/09/27/2020-09-27-webView-clickedImage/">网页图片添加点击方法获取图片</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/09/26/2020-09-26-wkwebview-cookie/">WKProcesspool方式共享WKWebView的进程和cookie</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/09/26/2020-09-26-launchStoryBoard/">启动页白屏</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/01/19/2020-01-19-screenRecord/">录屏功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/01/17/2020-01-17-检测设备方向/">检测设备方向</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/12/09/2019-12-09-UIVideoEditorController的颜色/">UIVideoEditorController的颜色</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/12/06/2019-12-06-UIVideoEditorController/">UIVideoEditorController</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/11/08/2019-11-08-Cordova创建plugin/">Cordova创建plugin</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/10/30/2019-10-30-Cordova中使用cocoapods管理iOS的第三方库/">Cordova中使用cocoapods管理iOS的第三方库</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/10/30/2019-10-30-获取到的相册图片方向错误/">获取到的相册图片方向错误</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link">友情链接</i></div><ul></ul><a href="http://www.jianshu.com/u/b3f4cfd26f4c" title="简书" target="_blank">简书</a><ul></ul><a href="https://github.com/dongjiawang" title="GitHub" target="_blank">GitHub</a><ul></ul><a href="https://dongjiawang.github.io/resume/" title="个人简历" target="_blank">个人简历</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2020 <a href="/." rel="nofollow">我的码.</a> Powered by <a rel="nofollow" target="_blank" href="https://hexo.io">Hexo.</a> <a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo">Theme</a> by <a rel="nofollow" target="_blank" href="https://github.com/pagecho">Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script src="/js/totop.js?v=0.0.0" async></script><script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script src="/js/love.js"></script><script src="/js/codeblock-resizer.js?v=0.0.0"></script><script src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title></title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print { 
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+
+
+* {
+  color: #555;
+  font-family: -apple-system-font, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+}
+  
+p{
+  letter-spacing: 1px !important;
+  line-height: 28px !important;
+  min-height: 1em !important;
+  box-sizing: border-box !important;
+  word-wrap: break-word !important;
+  text-align: left;
+  margin: 20px 0px !important;
+}
+
+blockquote {
+    border-left: 10px solid rgba(128,128,128,0.075);
+    background-color: rgba(128,128,128,0.05);
+    padding: 13px 15px !important;
+    margin: 0px;
+}
+
+blockquote p {
+  color: #898989;
+  margin: 0px;
+}
+
+strong {
+    font-weight: 700;
+    color: #bf360c;
+}
+
+body {
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  word-wrap: break-word;
+  padding: 12px 13px;
+  font-size: 13px;
+  color: #898989;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    word-break: break-all !important;
+    margin: 20px 0;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    // padding-left: 15px;
+}
+
+h1 {
+    // border-left: 6px solid #71BA51 !important;
+    font-size: 20px !important;
+}
+
+h2 {
+    // border-left: 4px solid #71BA51 !important;
+    font-size: 18px !important;
+}
+
+h3 {
+    font-size: 16px;
+  // border-left: 4px solid #71BA51 !important;
+}
+
+h4 {
+  font-size: 15px;
+  // border-left: 2px solid #71BA51 !important; 
+}
+
+a {
+  color: #4183C4 !important;
+  text-decoration: none !important;
+}
+
+ul, ol {
+  padding-left: 30px;
+}
+
+li {
+  line-height: 24px;
+}
+
+hr {
+    height: 4px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ddd;
+}
+
+pre {
+ background: #f2f2f2 !important;
+ padding: 12px 13px;
+ overflow: auto;
+}
+
+code {
+  color: #a71d5d;
+  overflow: auto;
+  background-color: rgba(241, 236, 229, 0.34);
+  padding: 0 0.2em;
+}
+
+pre code {
+  color: #a71d5d;
+  padding: 0;
+  background-color: none;
+}
+
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export'>
+<div id='write'  class=''><p><a href='https://dongjiawang.top/blog'><span>我的博客https://dongjiawang.top/blog</span></a></p><p>&nbsp;</p></div>
+</body>
+</html>
